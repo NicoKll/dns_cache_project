@@ -1,0 +1,53 @@
+:root{
+  --main-width-navbar: 987.5px;
+}
+body{
+  background-image: url(background.png);
+}
+button{
+  top: 6px;
+  left: 2%;
+  height: 50px;
+  padding: 0px 1%;
+  background-color: #2ECCFA;
+  font-size: 20px;
+
+}
+
+button.click{
+  background-color: #0040FF;
+}
+
+
+
+
+
+@when media (width>=var(--main-width-navbar){
+  .navbar {
+    position: relative;
+
+    width: 96%;
+    top: 5px;
+    left: 2%;
+    background-color: #2E2EFE;
+    height: 500px;
+  }
+}
+@else{
+  .navbar {
+    position: relative;
+
+    width: 96%;
+    top: 5px;
+    left: 2%;
+    background-color: #2E2EFE;
+    height: 200px;
+  }
+}
+
+
+
+
+/*.navbar{
+  height: 50px;
+}*/

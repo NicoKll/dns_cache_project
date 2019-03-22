@@ -1,0 +1,72 @@
+:root{
+  --main-width-navbar: 987.5px;
+}
+
+html {
+  background: url(background3.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button{
+  top: 6px;
+  left: 2%;
+  height: 50px;
+  padding: 0px 1%;
+  background-color: #2ECCFA;
+  font-size: 20px;
+
+}
+
+button.click{
+  background-color: #0040FF;
+}
+
+
+article {
+    width:90%;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    margin: 2% 5% 10% 5%;
+    padding: 1% 1% 1% 1%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul {
+
+  list-style-type: none;
+  margin: 2% 5% 10px 5%; /* x x s x */
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
