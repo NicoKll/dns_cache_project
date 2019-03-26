@@ -1,1 +1,19 @@
-TODO
+DNS: Abkürzung für "Domain Name System"; Damit ist das System/Konzept im Internet gemeint, das IP-Adressen zu URLs zuordnet.
+
+DNS-Server: Ein Server, der einen DNS-Service betreibt. Er nimmt also DNS-Anfragen(ein URL) von Benutzern und anderen DNS-Servern entgegen und beantortet diese(eine IP).
+  
+  Autoritativer Nameserver: Ein DNS-Server, der die Verantwortung für eine Reihe von DNS-Einträgen übernimmt. Er hat diese Einträge immer gespeichert; Andere DNS-Server
+  senden Abfragen an diesen Server, wenn diese eine URL nicht alleine zuordnen können.
+  
+  Rootserver: Es gibt 13 Rootserver; Sie leiten Abfragen an untergeordnete Top-level-domain-Server weiter. Auch diese besitzen untergeordnete DNS-Server - das Ziel dieser Hierachie ist es, den richtigen autoritativen Nameserver zu finden.
+
+DNS-Server-Cache: Ein Zwischenspeicher, der auf jedem DNS-Server zu finden ist. Hier werden DNS-Einträge gespeichert, die vor kurzer Zeit abgefragt wurden, damit nicht mehr die ganze DNS-Hierachie durchlaufen werden muss.
+
+DNS-Eintrag(sog. Resource Records): Der effektive Speichereintrag, der eine IP-Adresse mit einer URL (z.B. google.com) verknüpft.
+
+	TTL (eines DNS-Eintrags): Die time-to-live eines Eintrags definiert, wie lange er im DNS-Cache bleiben darf, devor er gelöscht werden muss.
+
+Firewall: Eine Software oder ein Gerät, die bestimmt, welche Netzverbindungen zwischen einem Benutzer und dem Internet bestehen dürfen (alle anderen welchen blockiert). 
+
+Asymmetrisches Schlüsselsystem: Eine Art von Verschlüsselung. Es werden zwei Schlüssel generiert: Ein Private Key und ein Public Key. Der Public Key kann nur Nachrichten verschlüsseln und nur der Private Key kann diese danach entschlüsseln. Der Public Key wird öffentlich verteilt, während der Private Key geheim gehalten wird.
+
